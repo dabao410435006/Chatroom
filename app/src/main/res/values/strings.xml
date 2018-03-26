@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">20180324</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_status">Hello World!</string>
+</resources>

@@ -1,0 +1,203 @@
+{
+  "project_info": {
+    "project_number": "772658594851",
+    "firebase_url": "https://fir-1-2b746.firebaseio.com",
+    "project_id": "fir-1-2b746",
+    "storage_bucket": "fir-1-2b746.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772658594851:android:e17aad79a92ce8d5",
+        "android_client_info": {
+          "package_name": "com.tracy.firebase1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772658594851-hkhnbeua5koamo3j3b28roe6benukuaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tracy.firebase1",
+            "certificate_hash": "88fd8a5a712ea09c6c4bcdffab8ce77682c9c2a8"
+          }
+        },
+        {
+          "client_id": "772658594851-k9g5moc803umc62lvlvrq48j7pbnl9h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO5LlYeFclvlyHAxUJL0zcH-Wem2EoX_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772658594851-k9g5moc803umc62lvlvrq48j7pbnl9h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772658594851:android:629b591c4eaa5a85",
+        "android_client_info": {
+          "package_name": "com.tracy.ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772658594851-98jsicvhq58tp2c9tb2f3b9qg6frjenm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tracy.ui",
+            "certificate_hash": "88fd8a5a712ea09c6c4bcdffab8ce77682c9c2a8"
+          }
+        },
+        {
+          "client_id": "772658594851-k9g5moc803umc62lvlvrq48j7pbnl9h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO5LlYeFclvlyHAxUJL0zcH-Wem2EoX_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772658594851-k9g5moc803umc62lvlvrq48j7pbnl9h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772658594851:android:836871709bcb6001",
+        "android_client_info": {
+          "package_name": "com.tracy.all"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772658594851-4qjrd0j6mj8i11v2e4mtuftqf99cqjru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tracy.all",
+            "certificate_hash": "ab5958c1d3aedd8f043b09f74c4c1b8a0cf621f0"
+          }
+        },
+        {
+          "client_id": "772658594851-rl9029b3pk1frcu3qkrgbaqdhd9ui16n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tracy.all",
+            "certificate_hash": "88fd8a5a712ea09c6c4bcdffab8ce77682c9c2a8"
+          }
+        },
+        {
+          "client_id": "772658594851-k9g5moc803umc62lvlvrq48j7pbnl9h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO5LlYeFclvlyHAxUJL0zcH-Wem2EoX_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772658594851-k9g5moc803umc62lvlvrq48j7pbnl9h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772658594851:android:fd18751e4410ffab",
+        "android_client_info": {
+          "package_name": "com.tracy.a20180324"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772658594851-a1g1niglltjtmjef0h6ugklcqv8de1ol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tracy.a20180324",
+            "certificate_hash": "88fd8a5a712ea09c6c4bcdffab8ce77682c9c2a8"
+          }
+        },
+        {
+          "client_id": "772658594851-2jsdtg2t8no9iqr6s9hdr1a52c2ud6q0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tracy.a20180324",
+            "certificate_hash": "ab5958c1d3aedd8f043b09f74c4c1b8a0cf621f0"
+          }
+        },
+        {
+          "client_id": "772658594851-k9g5moc803umc62lvlvrq48j7pbnl9h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO5LlYeFclvlyHAxUJL0zcH-Wem2EoX_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772658594851-k9g5moc803umc62lvlvrq48j7pbnl9h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
