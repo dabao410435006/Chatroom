@@ -1,5 +1,7 @@
 package com.tracy.a20180324;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,6 +16,9 @@ import android.widget.TextView;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.squareup.picasso.Picasso;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 
 public class UsersActivity extends AppCompatActivity {
@@ -37,6 +42,7 @@ public class UsersActivity extends AppCompatActivity {
 
         mUserList = (RecyclerView) findViewById(R.id.users_list);
         mUserList.setHasFixedSize(true);
+        //layoutManager呈現View
         mUserList.setLayoutManager(new LinearLayoutManager(this));
 
 
@@ -57,9 +63,26 @@ public class UsersActivity extends AppCompatActivity {
                //將users.getName()物件傳送到ViewHolder內顯示
                //UsersViewHolder class的的setName
                usersviewHolder.setName(users.getName());
+               usersviewHolder.setUserStatus(users.getStatus());
+               usersviewHolder.setUserImage(users.getThumb_image(),getApplicationContext());
+
+               //
+               final String user_id = getRef(position).getKey();
+
+               //View 點下要取得別人的profile
+               usersviewHolder.mView.setOnClickListener(new View.OnClickListener() {
+                   @Override
+                   public void onClick(View view) {
+
+                       Intent profileIntent = new Intent(UsersActivity.this,ProfileActivity.class);
+                       profileIntent.putExtra("user_id",user_id);
+                       startActivity(profileIntent);
+
+                   }
+               });
            }
        };
-
+       //將Adapter設定給RecyclerView
        mUserList.setAdapter(firebaseRecyclerAdapter);
 
     }
@@ -75,6 +98,18 @@ public class UsersActivity extends AppCompatActivity {
             TextView userNameView = (TextView) mView.findViewById(R.id.user_single_name);
             userNameView.setText(name);
         }
+        public void setUserStatus(String status) {
 
+            TextView userStatusView = (TextView)mView.findViewById(R.id.user_single_status);
+            userStatusView.setText(status);
+        }
+
+        public void setUserImage(String thumb_images,Context ctx) {
+
+            CircleImageView userImageView = (CircleImageView) mView.findViewById(R.id.user_single_image);
+            //使用Picasso將圖片顯示在ImageView
+            Picasso.with(ctx).load(thumb_images).placeholder(R.drawable.user_person_before).into(userImageView);
+
+        }
     }
 }

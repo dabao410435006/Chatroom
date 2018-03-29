@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-43:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\94403f67a04cb73662a07129ec3650d1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.4.7.aar\f7b140290f79806a9fb7925b55364b1a\AndroidManifest.xml:2:1-12:12
+MERGED from [id.zelory:compressor:2.0.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\compressor-2.0.0.aar\e22efe8a92b58a8b2a7f438efa7e072d\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\84f3ec077479bf7c254c2e24138a02e0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d65353512a41bc8f87d45cca4810b5f3\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\d4138d9fba1504b0e33cb5bd5cca4e76\AndroidManifest.xml:17:1-31:12
@@ -37,20 +38,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\angoo\.grad
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\285c74a92c9573dca498a8f4323182e7\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b95e583466480c6e915bab0e06220196\AndroidManifest.xml:17:1-30:12
 MERGED from [android.arch.core:runtime:1.0.0-alpha8] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0-alpha8.aar\de3ac6a17df2e511254851a7b2e7c378\AndroidManifest.xml:17:1-26:12
-INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-43:12
 	package
 		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-43:12
 		INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:1-43:12
 		INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:2:11-69
@@ -63,7 +64,7 @@ ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
 		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:8:5-38:19
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:8:5-41:19
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\94403f67a04cb73662a07129ec3650d1\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\94403f67a04cb73662a07129ec3650d1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\84f3ec077479bf7c254c2e24138a02e0\AndroidManifest.xml:5:5-20
@@ -130,58 +131,64 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\angoo\.gradle\caches
 		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:15:9-29
 activity#com.tracy.a20180324.MainActivity
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.tracy.a20180324.StartActivity
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:22:9-51
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:23:9-51
 	android:name
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:22:19-48
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:23:19-48
 activity#com.tracy.a20180324.RegisterActivity
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:23:9-25:59
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:24:9-26:59
 	android:parentActivityName
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:25:13-56
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:24:13-45
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:25:13-45
 activity#com.tracy.a20180324.LoginActivity
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:26:9-28:59
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:27:9-29:59
 	android:parentActivityName
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:27:13-42
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:28:13-42
 activity#com.tracy.a20180324.SettingsActivity
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:29:9-54
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:30:9-54
 	android:name
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:29:19-51
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:30:19-51
 activity#com.tracy.a20180324.StatusActivity
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:30:9-32:62
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:31:9-33:62
 	android:parentActivityName
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:32:13-59
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:33:13-59
 	android:name
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:31:13-43
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:32:13-43
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:33:9-35:59
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:34:9-36:59
 	android:theme
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:35:13-56
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:36:13-56
 	android:name
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:34:13-76
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:35:13-76
 activity#com.tracy.a20180324.UsersActivity
-ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:36:9-37:67
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:37:9-39:58
 	android:parentActivityName
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:37:13-55
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:39:13-55
 	android:name
-		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:36:19-48
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:38:13-42
+activity#com.tracy.a20180324.ProfileActivity
+ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:40:9-62
+	android:name
+		ADDED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml:40:19-50
 uses-sdk
 INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android\BTest\20180324\app\src\main\AndroidManifest.xml
@@ -190,6 +197,8 @@ MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\angoo\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\94403f67a04cb73662a07129ec3650d1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.4.7.aar\f7b140290f79806a9fb7925b55364b1a\AndroidManifest.xml:8:5-10:41
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.4.7.aar\f7b140290f79806a9fb7925b55364b1a\AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.0.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\compressor-2.0.0.aar\e22efe8a92b58a8b2a7f438efa7e072d\AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.0.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\compressor-2.0.0.aar\e22efe8a92b58a8b2a7f438efa7e072d\AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\84f3ec077479bf7c254c2e24138a02e0\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\84f3ec077479bf7c254c2e24138a02e0\AndroidManifest.xml:4:5-43
 MERGED from [com.android.support:design:26.1.0] C:\Users\angoo\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d65353512a41bc8f87d45cca4810b5f3\AndroidManifest.xml:21:5-23:62
