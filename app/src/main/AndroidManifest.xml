@@ -13,6 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name=".Chat"> <!-- Chat.class -->
+
+        <service
+            android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +45,13 @@
         <activity
             android:name=".UsersActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity">
+            <intent-filter>
+                <action android:name="com.tracy.a20180324_TARGET_NOTIFICATION"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>

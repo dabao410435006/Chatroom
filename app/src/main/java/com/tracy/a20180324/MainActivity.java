@@ -11,6 +11,9 @@ import android.view.MenuItem;
 
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
@@ -18,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
     private ViewPager mViewPager;
     private SectionsPagetAdapter mSectionsPagerAdapter;
+
+    private DatabaseReference mUserRef;
+
     private TabLayout mTabLayout;
 
     @Override
@@ -28,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         mToolbar = (Toolbar) findViewById(R.id.main_page_toolbar);
         setSupportActionBar(mToolbar);
         getSupportActionBar().setTitle("Chat");
+
+
+        mUserRef = FirebaseDatabase.getInstance().getReference().child("User").child(mAuth.getCurrentUser().getUid());
 
         mViewPager = (ViewPager)findViewById(R.id.main_tabPager);
         mSectionsPagerAdapter = new SectionsPagetAdapter(getSupportFragmentManager());
@@ -40,12 +49,29 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        if (mAuth.getCurrentUser() == null) {
+
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+
+        if (currentUser == null) {
             sendToStart();
+        }
+        else {
+            //在MainActivity的時候有連上代表是在線
+            mUserRef.child("online").setValue(true);
         }
 
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        if(currentUser != null ) {
+            mUserRef.child("online").setValue(false);
+        }
+
+    }
     private void sendToStart() {
         finish();
         startActivity(new Intent(MainActivity.this,StartActivity.class));

@@ -66,7 +66,7 @@ public class UsersActivity extends AppCompatActivity {
                usersviewHolder.setUserStatus(users.getStatus());
                usersviewHolder.setUserImage(users.getThumb_image(),getApplicationContext());
 
-               //
+               //取得那個位置人的userid
                final String user_id = getRef(position).getKey();
 
                //View 點下要取得別人的profile
@@ -75,6 +75,7 @@ public class UsersActivity extends AppCompatActivity {
                    public void onClick(View view) {
 
                        Intent profileIntent = new Intent(UsersActivity.this,ProfileActivity.class);
+                       //放入接收者的user_id // with ProfileActivity
                        profileIntent.putExtra("user_id",user_id);
                        startActivity(profileIntent);
 
